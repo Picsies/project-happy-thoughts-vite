@@ -1,0 +1,6 @@
+.error-message {
+  visibility: hidden;
+}
+.error-message {
+  visibility: visible;
+}

@@ -1,3 +1,13 @@
+import { Header } from "./components/Header";
+import { ThoughtForm } from "./components/ThoughtForm";
+import { ThoughtList } from "./components/ThoughtList";
+
 export const App = () => {
-  return <div>Find me in src/app.jsx!</div>;
+  return (
+    <>
+      <Header />
+      <ThoughtForm />
+      <ThoughtList />
+    </>  
+  )
 };
