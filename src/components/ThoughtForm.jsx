@@ -56,7 +56,7 @@ export const ThoughtForm = () => {
       <button className="submit-btn" 
         type="submit" 
         onClick={handleSubmit}>❤️ Send Happy Thought ❤️
-        </button>
+      </button>
     </div>
   )
 }

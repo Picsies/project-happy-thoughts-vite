@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react"
 
+import "./Hearts.css";
+
 export const Hearts = ({thought}) => {
 const [hearts, setHearts] = useState(thought.hearts);
 
@@ -22,8 +24,9 @@ console.log(thought._id);
   return (
     <div className="heart">
       <button className="heart-btn" onClick={addHeart}>
-      ❤️{hearts}
+      ❤️
       </button>
+      <div className="nr-hearts">x{hearts}</div>
     </div>
   )
 }
